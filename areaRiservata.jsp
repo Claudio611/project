@@ -13,7 +13,7 @@
             font-family: 'Lora', serif;
             background-color: #293133;
             color: white;
-            background-image: url('/assets/img/sfondo aree/sfondo4.jpg'); 
+            background-image: url('/assets/img/sfondoAree/sfondo4.jpg'); 
             background-size: cover;
             background-position: center;
             position: relative;

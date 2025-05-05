@@ -30,15 +30,15 @@
 
     <div class="content-wrapper">
         <div class="message-box">
-            <h1>Si è verificato un errore durante la creazione del team!</h1>
-            <p>Verrai reindirizzato all'area riservata in breve...</p>
+            <h1>Si è verificato un errore durante la creazione della sfida!</h1>
+            <p>Verrai reindirizzato all'area amministrativa in breve...</p>
         </div>
     </div>
 
     <script>
         // Impostiamo il reindirizzamento a Area Admin dopo 3 secondi
         setTimeout(function() {
-            window.location.href = "areaRiservata.jsp"; 
+            window.location.href = "areaAdmin.jsp"; // Modifica questo URL se necessario
         }, 3000);
     </script>
 

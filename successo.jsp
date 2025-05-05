@@ -1,7 +1,7 @@
 <%@ page session="false" %>
 <html>
 <head>
-    <title>Operazione Team</title>
+    <title>Operazione Sfida</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
         body {
@@ -30,14 +30,14 @@
     <div class="content-wrapper">
         <div class="message-box">
             <h1>Operazione completata con successo!</h1>
-            <p>Verrai reindirizzato all'area riservata in breve...</p>
+            <p>Verrai reindirizzato all'area amministrativa in breve...</p>
         </div>
     </div>
 
     <script>
         //reindirizzamento dopo 3 secondi
         setTimeout(function() {
-            window.location.href = "areaRiservata.jsp"; 
+            window.location.href = "areaAdmin.jsp"; 
         }, 3000);
     </script>
 
